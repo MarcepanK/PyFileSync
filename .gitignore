@@ -1,0 +1,6 @@
+*.pyc
+build/
+dist/
+wawsync_doc/
+wawsync.egg-info
+.ropeproject/
