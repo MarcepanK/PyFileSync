@@ -29,10 +29,10 @@ class DocumentationCommand(Command):
         """ Run command """
         command = ['epydoc',
                    '-v',
-                   'wawsync',
+                   'pyfilesync',
                    '--html',
                    '-o',
-                   'wawsync_docs']
+                   'pyfilesync_docs']
         self.announce(
             'Running commnad: %s'.format(str(command)),
             level=log.INFO)
@@ -49,23 +49,23 @@ def read_description(module_name):
             break
     return result
 
-version = __import__('wawsync').get_version()
+version = __import__('pyfilesync').get_version()
 
 data_files = []
 
 setup(
-    name='wawsync',
+    name='pyfilesync',
     version=version,
     license='GNU',
     author="Marcin Kruk, Bartosz Gertych, Rafał Kobel",
     author_email="rafalkobel@rafyco.pl",
-    description=read_description('wawsync'),
+    description=read_description('pyfilesync'),
     long_description=open("README.rst").read(),
-    url="https://github.com/MarcepanK/WawSync",
+    url="https://github.com/MarcepanK/pyfilesync",
     packages=find_packages(),
     include_package_data=True,
-    package_dir={'wawsync': 'wawsync'},
-    test_suite='wawsync.tests.__main__',
+    package_dir={'pyfilesync': 'pyfilesync'},
+    test_suite='pyfilesync.tests.__main__',
     classifiers=[
         'Environment :: Console',
         'Development Status :: 2 - Pre-Alpha',
@@ -82,7 +82,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'wawsync = wawsync.console:main',
+            'pyfilesync = pyfilesync.console:main',
         ]
     },
     platforms="Any",
