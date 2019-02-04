@@ -9,7 +9,6 @@ TestCase checking module files. It should be conform to PEP8.
 @see: L{pyfilesync}
 """
 
-
 from __future__ import unicode_literals
 import unittest
 import os
