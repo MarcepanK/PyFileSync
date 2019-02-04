@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Package allows you backup files between your host and remote directory.
+Package allows you to backup files between your host and remote directory.
 
-Insallation
+Installation
 ===========
 
-There are a two metod of installation C{wawsync} module.
+There are a two methods of installation C{wawsync} module.
 
 From PyPI repository (not implemented yet)::
 
