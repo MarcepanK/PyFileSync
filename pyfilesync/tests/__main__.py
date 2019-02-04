@@ -5,13 +5,13 @@ CommandLine interface for test.
 
 For checking tests call::
 
-    python -m wawsync.tests
+    python -m pyfilesync.tests
 """
 
 # pylint: disable=W0611
 from __future__ import unicode_literals
 import unittest
-from wawsync.tests import TestWawSyncModule
+from pyfilesync.tests import TestPyFileSyncModule
 
 
 if __name__ == "__main__":
