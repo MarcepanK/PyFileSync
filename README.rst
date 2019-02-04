@@ -4,11 +4,14 @@ pyFileSync - Backup your files
 
 Python package to make backup between computers using p2p connection.
 
-.. image:: https://img.shields.io/github/last-commit/MarcepanK/pyFileSync.svg
-   :target: https://github.com/MarcepanK/pyFileSync.svg
+.. image:: https://img.shields.io/travis/MarcepanK/PyFileSync.svg
+   :target: https://travis-ci.org/MarcepanL/PyFileSync
 
-.. image:: http://img.shields.io/license/MarcepanK/pyFileSync.svg
-   :target: https://www.gnu.org/licenses/gpl.html
+.. image:: https://img.shields.io/github/last-commit/MarcepanK/PyFileSync.svg
+   :target: https://github.com/MarcepanK/PyFileSync.svg
+
+.. image:: https://img.shields.io/license/MarcepanK/PyFileSync.svg
+   :target: https://github.com/MarcepanK/PyFileSync/blob/master/LICENSE
 
 Instalation
 -----------
@@ -32,6 +35,6 @@ After installation try to call:
 Authors
 -------
 
-Marcin Kruk Kruk.marcin@o2.pl
-Bartosz Gertych bartoszgertych94@gmail.com
-Rafał Kobel rafalkobel@rafyco.pl
+ - Marcin Kruk Kruk.marcin@o2.pl
+ - Bartosz Gertych bartoszgertych94@gmail.com
+ - Rafał Kobel rafalkobel@rafyco.pl
