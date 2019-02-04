@@ -58,7 +58,7 @@ setup(
     version=version,
     license='GNU',
     author="Marcin Kruk, Bartosz Gertych, Rafał Kobel",
-    author_email="rafalkobel@rafyco.pl",
+    author_email="Kruk.marcin@o2.pl, bartoszgertych94@gmail.com, rafalkobel@rafyco.pl",
     description=read_description('pyfilesync'),
     long_description=open("README.rst").read(),
     url="https://github.com/MarcepanK/pyfilesync",

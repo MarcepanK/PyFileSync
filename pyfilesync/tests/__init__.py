@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Testing module pyfilesync.
+Testing module syncwaw.
 
 TestCase checking module files. It should be conform to PEP8.
 
