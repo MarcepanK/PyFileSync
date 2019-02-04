@@ -74,8 +74,8 @@ setup(
         'License :: OSI Approved :: GNU General Public License v3 (GPLv3)'
     ],
     install_requires=[
-        'pylint',
-        'pep8'
+        'pylint==1.9.1',
+        'pep8==1.7.1'
     ],
     cmdclass={
         'documentation': DocumentationCommand,
