@@ -1,7 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
+<<<<<<< HEAD:pyfilesync/tests/__init__.py
 Testing module pyfilesync.
+=======
+Testing module wawsync.
+>>>>>>> develop:wawsync/tests/__init__.py
 
 TestCase checking module files. It should be conform to PEP8.
 
