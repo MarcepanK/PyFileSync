@@ -8,6 +8,7 @@ install:
 
 script:
  - python setup.py test
+ - python -m pyfilesync.console --version
 
 notifications:
   slack: myspacecowboysteam:GpIsy0NNliVDL0sBQGwZBodO
