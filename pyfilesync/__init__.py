@@ -14,14 +14,14 @@ From PyPI repository (not implemented yet)::
 
 From sources::
 
-    git clone git@bitbucket.org:MarepanK/pyfilesync.git
+    git clone git@github.com:MarepanK/pyfilesync.git
     cd pyfilesync
     python3 setup.py install
 
 Usage
 =====
 
-    pyfilesync --help
+    filesync --help
 
 """
 

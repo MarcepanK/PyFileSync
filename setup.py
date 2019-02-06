@@ -82,7 +82,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'pyfilesync = pyfilesync.console:main',
+            'filesync = pyfilesync.console:main',
         ]
     },
     platforms="Any",

@@ -12,6 +12,7 @@ For checking tests call::
 from __future__ import unicode_literals
 import unittest
 from pyfilesync.tests import TestPyFileSyncModule
+from pyfilesync.tests.console import TestConsoleModule
 
 
 if __name__ == "__main__":
