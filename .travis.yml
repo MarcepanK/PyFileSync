@@ -9,3 +9,5 @@ install:
 script:
  - python setup.py test
 
+notifications:
+  slack: myspacecowboysteam:GpIsy0NNliVDL0sBQGwZBodO
