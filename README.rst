@@ -1,6 +1,6 @@
-===========================
+==============================
 pyFileSync - Backup your files
-===========================
+==============================
 
 Python package to make backup between computers using p2p connection.
 
@@ -30,7 +30,7 @@ After installation try to call:
 
 ::
 
-    pyfilesync --help
+    filesync --help
 
 Authors
 -------
