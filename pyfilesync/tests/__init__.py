@@ -38,7 +38,7 @@ class TestPyFileSyncModule(unittest.TestCase):  # pylint: disable=R0904
             return result
         return recursive_checker(pyfilesync.__path__[0])
 
-    def test_pap8(self):
+    def test_pep8(self):
         """ Test that we conform to PEP8. """
         pep8_style = pep8.StyleGuide(paths=['--ignore=E501'])
         # Disable E501 code (line too long). It should be enabled after fixed.

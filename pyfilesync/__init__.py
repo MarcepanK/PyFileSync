@@ -4,7 +4,7 @@
 Package allows you to backup files between your host and remote directory.
 
 Installation
-===========
++===========
 
 There are a two methods of Installation C{pyfilesync} module.
 
