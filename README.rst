@@ -30,7 +30,7 @@ After installation try to call:
 
 ::
 
-    pyfilesync --help
+    filesync --help
 
 Authors
 -------
