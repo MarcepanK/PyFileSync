@@ -97,7 +97,9 @@ setup(
     ],
     install_requires=[
         'pylint==1.9.1',
-        'pep8==1.7.1'
+        'pep8==1.7.1',
+        'Sphinx==1.8.4',
+        'sphinx-epytext==0.0.4'   
     ],
     cmdclass={
         'documentation': DocumentationCommand,
@@ -110,8 +112,8 @@ setup(
     command_options={
         'build_sphinx': {
             'project': ('setup.py', 'pyFileSync'),
-            'version': ('setup.py', 'version'),
-            'release': ('setup.py', 'version'),
+            'version': ('setup.py', version),
+            'release': ('setup.py', version),
             'source_dir': ('setup.py', 'docs')
         }
     },
