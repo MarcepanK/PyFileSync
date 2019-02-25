@@ -82,7 +82,7 @@ setup(
     author_email="Kruk.marcin@o2.pl, bartoszgertych94@gmail.com, rafalkobel@rafyco.pl",
     python_requires='>={}.{}'.format(*REQUIRED_PYTHON),
     description=read_description('pyfilesync'),
-    long_description=open("README.rst").read(),
+    long_description=open("README.rst", encoding="utf-8").read(),
     url="https://github.com/MarcepanK/pyfilesync",
     packages=find_packages(),
     include_package_data=True,
@@ -106,6 +106,14 @@ setup(
         'console_scripts': [
             'filesync = pyfilesync.console:main',
         ]
+    },
+    command_options={
+        'build_sphinx': {
+            'project': ('setup.py', 'pyFileSync'),
+            'version': ('setup.py', 'version'),
+            'release': ('setup.py', 'version'),
+            'source_dir': ('setup.py', 'docs')
+        }
     },
     platforms="Any",
     keywords="backup, synchronization, p2p, torrent"

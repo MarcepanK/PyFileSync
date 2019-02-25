@@ -9,6 +9,7 @@ install:
 script:
  - python setup.py test
  - python -m pyfilesync.console --version
+ - python setup.py build_sphinx
 
 notifications:
   slack: myspacecowboysteam:GpIsy0NNliVDL0sBQGwZBodO
